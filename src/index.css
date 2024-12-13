@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "jakarta";
+  src: url("../public/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype"),
+       url("../public/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+*,
+body {
+  font-family: "jakarta", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #fff;
+}
