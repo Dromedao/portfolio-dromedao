@@ -42,23 +42,18 @@
   align-items: center;
   justify-content: center;
   justify-self: center;
+  margin: 0 auto 10lvh auto;
   width: 70lvw;
   gap: 10px;
-  height: 75lvh;
+  height: fit-content;
   background-color: transparent;
   flex-direction: column;
   margin-bottom: 10lvh;
 }
 
-.home-container {
-  height: fit-content;
-}
-
 @media (max-width: 480px) {
   .home-container {
-    width: 95lvw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90lvw;
   }
 }
 
